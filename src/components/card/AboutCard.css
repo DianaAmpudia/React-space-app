@@ -50,3 +50,19 @@
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.social-media-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social-media-link {
+  color: #333;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.social-media-link:hover {
+  color: #9d82ee;
+}
