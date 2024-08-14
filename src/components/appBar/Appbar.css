@@ -1,0 +1,10 @@
+.nav-logo {
+    max-width: 60px;
+    max-height: 60px;
+    color: aliceblue;
+    margin: 1vw;
+  }
+
+.MuiContainer-root{
+  background-color: rgb(66, 44, 137);
+}
