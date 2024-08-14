@@ -16,7 +16,7 @@ const AboutMePage = () => {
         <AboutCard
           name=" Hi✨ I'm Diana Ampudia"
           title="Web Developer"
-          description="I'm Diana, a junior web developer passionate about creating engaging and functional websites. I have experience with HTML, CSS, and JavaScript, and I'm eager to expand my skills in front-end and back-end technologies."
+          description="I'm a junior web developer passionate about creating engaging and functional websites. I have experience with HTML, CSS, and JavaScript, and I'm eager to expand my skills in front-end and back-end technologies."
           image="/pfp.jpg"
           socialMediaLinks={socialMediaLinks}
         />

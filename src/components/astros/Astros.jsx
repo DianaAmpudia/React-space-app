@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import CircularProgress from "@mui/material/CircularProgress";
+import Progress from '../Progress.jsx';
 import "./Astros.css";
 
 function AstroCard({ name, craft }) {
@@ -29,7 +29,7 @@ function Astros() {
   return (
     <div className="astros-container">
       {!astros ? (
-        <CircularProgress color="secondary" />
+         <Progress/>
       ) : (
         astros.map((astro, idx) => <AstroCard key={idx} {...astro}/>)
       )}
